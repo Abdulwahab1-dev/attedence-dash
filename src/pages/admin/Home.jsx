@@ -18,7 +18,7 @@ const Home = () => {
       <Sidenav/>
       <Routes>
         <Route path='/' element={<Layout/>} />
-        <Route index element={<Dashboard/>} />
+        <Route index element={<h1><Dashboard/></h1>} />
         <Route path='showshift' element={<Showshift/>}/>
         <Route path='/Addshift' element={<AddShift/>}/>
         <Route path='/Editshift' element={<EditShift/>}/>
